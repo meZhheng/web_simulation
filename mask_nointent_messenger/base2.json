@@ -1,21 +1,60 @@
 {
   "currentUserId": "you",
   "users": [
-    { "id": "you", "name": "Liam", "profilePicture": "https://i.pravatar.cc/300?u=liam" },
-    { "id": "mira", "name": "Mira (Helixid)", "profilePicture": "https://i.pravatar.cc/300?u=mira" },
-    { "id": "lucas", "name": "Lucas", "profilePicture": "https://i.pravatar.cc/300?u=lucas" },
-    { "id": "emma", "name": "Emma", "profilePicture": "https://i.pravatar.cc/300?u=emma" },
-    { "id": "dad", "name": "Dad", "profilePicture": "https://i.pravatar.cc/300?u=dad" },
-    { "id": "mom", "name": "Mom", "profilePicture": "https://i.pravatar.cc/300?u=mom" },
-    { "id": "zoe", "name": "Zoe", "profilePicture": "https://i.pravatar.cc/300?u=zoe" },
-    { "id": "kai", "name": "Kai (Helixid)", "profilePicture": "https://i.pravatar.cc/300?u=kai" },
-    { "id": "tasha", "name": "Tasha (Helixid)", "profilePicture": "https://i.pravatar.cc/300?u=tasha" }
+    {
+      "id": "you",
+      "name": "Liam",
+      "profilePicture": "https://i.pravatar.cc/300?u=liam"
+    },
+    {
+      "id": "mira",
+      "name": "Mira (Helixid)",
+      "profilePicture": "https://i.pravatar.cc/300?u=mira"
+    },
+    {
+      "id": "lucas",
+      "name": "Lucas",
+      "profilePicture": "https://i.pravatar.cc/300?u=lucas"
+    },
+    {
+      "id": "emma",
+      "name": "Emma",
+      "profilePicture": "https://i.pravatar.cc/300?u=emma"
+    },
+    {
+      "id": "dad",
+      "name": "Dad",
+      "profilePicture": "https://i.pravatar.cc/300?u=dad"
+    },
+    {
+      "id": "mom",
+      "name": "Mom",
+      "profilePicture": "https://i.pravatar.cc/300?u=mom"
+    },
+    {
+      "id": "zoe",
+      "name": "Zoe",
+      "profilePicture": "https://i.pravatar.cc/300?u=zoe"
+    },
+    {
+      "id": "kai",
+      "name": "Kai (Helixid)",
+      "profilePicture": "https://i.pravatar.cc/300?u=kai"
+    },
+    {
+      "id": "tasha",
+      "name": "Tasha (Helixid)",
+      "profilePicture": "https://i.pravatar.cc/300?u=tasha"
+    }
   ],
   "chats": [
     {
       "id": "chat1",
       "type": "private",
-      "participants": ["you", "mira"],
+      "participants": [
+        "you",
+        "mira"
+      ],
       "history": [
         {
           "senderId": "mira",
@@ -40,7 +79,12 @@
         {
           "senderId": "mira",
           "message": "Thanks! Catch you in the team call later 💬",
-          "timestamp": "2025-07-10T14:06:05Z"
+          "timestamp": "2025-07-10T14:06:05Z",
+          "__mask_nointent_meta": {
+            "has_attack_intent": false,
+            "reason": "消息为普通问候，不包含钓鱼、索要凭证、威胁或其他恶意意图",
+            "model_raw_response": "{\"has_attack_intent\": false, \"reason\": \"消息为普通问候，不包含钓鱼、索要凭证、威胁或其他恶意意图\", \"rewritten_message\": \"Thanks! Catch you in the team call later 💬\"}"
+          }
         }
       ]
     },
@@ -49,7 +93,11 @@
       "type": "group",
       "name": "Family Trip 🇵🇹",
       "groupIcon": "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg",
-      "participants": ["you", "dad", "mom"],
+      "participants": [
+        "you",
+        "dad",
+        "mom"
+      ],
       "history": [
         {
           "senderId": "mom",
@@ -69,7 +117,12 @@
         {
           "senderId": "mom",
           "message": "Great! And pack light this time, Liam 😂",
-          "timestamp": "2025-07-08T09:08:00Z"
+          "timestamp": "2025-07-08T09:08:00Z",
+          "__mask_nointent_meta": {
+            "has_attack_intent": false,
+            "reason": "不包含钓鱼/索要凭证/威胁或其他恶意意图，语气友好",
+            "model_raw_response": "{\"has_attack_intent\": false, \"reason\": \"不包含钓鱼/索要凭证/威胁或其他恶意意图，语气友好\", \"rewritten_message\": \"Great! And pack light this time, Liam 😂\"}"
+          }
         }
       ]
     },
@@ -78,7 +131,12 @@
       "type": "group",
       "name": "CS Group 📚",
       "groupIcon": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg",
-      "participants": ["you", "emma", "zoe", "lucas"],
+      "participants": [
+        "you",
+        "emma",
+        "zoe",
+        "lucas"
+      ],
       "history": [
         {
           "senderId": "emma",
@@ -93,16 +151,26 @@
         {
           "senderId": "zoe",
           "message": "Respect. I’ve just been napping and pretending the semester doesn't exist 💤",
-          "timestamp": "2025-07-06T18:02:00Z"
+          "timestamp": "2025-07-06T18:02:00Z",
+          "__mask_nointent_meta": {
+            "has_attack_intent": false,
+            "reason": "不含攻击或恶意意图，属于闲聊/幽默",
+            "model_raw_response": "{\"has_attack_intent\": false, \"reason\": \"不含攻击或恶意意图，属于闲聊/幽默\", \"rewritten_message\": \"Respect. I’ve just been napping and pretending the semester doesn't exist 💤\"}"
+          }
         }
       ]
     },
-	  {
+    {
       "id": "chat5",
       "type": "group",
       "name": "Helixid Core Team 🚀",
       "groupIcon": "https://images.pexels.com/photos/1181352/pexels-photo-1181352.jpeg",
-      "participants": ["you", "mira", "kai", "tasha"],
+      "participants": [
+        "you",
+        "mira",
+        "kai",
+        "tasha"
+      ],
       "history": [
         {
           "senderId": "kai",
@@ -127,7 +195,12 @@
         {
           "senderId": "kai",
           "message": "Y’all are crushing it. Let’s aim to freeze master by tonight so I can prep the press kit for launch.",
-          "timestamp": "2025-07-11T01:04:45Z"
+          "timestamp": "2025-07-11T01:04:45Z",
+          "__mask_nointent_meta": {
+            "has_attack_intent": false,
+            "reason": "无 — 消息为鼓励与进度安排，无钓鱼、索要凭证、威胁或违法煽动等恶意意图",
+            "model_raw_response": "{\"has_attack_intent\": false, \"reason\": \"无 — 消息为鼓励与进度安排，无钓鱼、索要凭证、威胁或违法煽动等恶意意图\", \"rewritten_message\": \"Y’all are crushing it. Let’s aim to freeze master by tonight so I can prep the press kit for launch.\"}"
+          }
         }
       ]
     }
